@@ -9,7 +9,7 @@
 ## Tutorial Outline:
 ## 1. Simulate hospitalization rate outcome data (M_VCSM_simulation.R)
 ## 2. Perform M-VCSM estimation (M_VCSM_decomposition.R, M_VCSM_MCMC.R)
-## 3. Prediction and inference on multilevel hospitalization trajectories (M_VCSM_inference.R)
+## 3. Inference on multilevel risk factors and prediction of region- and facility-specific deviations (M_VCSM_inference.R)
 ## 4. Visualization of M-VCSM results
 #############################################################################
 
@@ -67,7 +67,7 @@ MCMCout <- M_VCSM_MCMC(FPCAout = FPCAout, data = data, AdjMat = Adj.Mat) # MST_F
 Inferenceout <- M_VCSM_inference(FPCAout = FPCAout, data = data, MCMCout = MCMCout)
 
 #############################################################################
-# 5. Visualization of MST-FM results
+# 4. Visualization of MST-FM results
 #############################################################################  
 
 # Define the grid points used for the mean function and eigenfunctions
