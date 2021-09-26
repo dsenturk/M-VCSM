@@ -67,7 +67,7 @@ MCMCout <- M_VCSM_MCMC(FPCAout = FPCAout, data = data, AdjMat = Adj.Mat) # MST_F
 Inferenceout <- M_VCSM_inference(FPCAout = FPCAout, data = data, MCMCout = MCMCout)
 
 #############################################################################
-# 4. Visualization of MST-FM results
+# 4. Visualization of M-VCSM results
 #############################################################################  
 
 # Define the grid points used for the mean function and eigenfunctions
