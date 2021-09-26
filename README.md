@@ -14,7 +14,7 @@ M_VCSM_inference.R : Function for obtaining inference for varying coefficient fu
 
 INTRODUCTION ——————————————
 
-The contents of this folder allow for implementation of the M-VCSM estimation and inference described in "Multilevel Varying Coefficient Spatiotemporal Model". Users can simulate a sample data frame (M_VCSM_simulation.R) and apply the proposed estimation algorithm (M_VCSM_decomposition.R, M_VCSM_MCMC.R). Also, we include tools to perform prediction and inference on multilevel hospitalization rate trajectories (MST_FM_inference.R), allowing users to obtain region- and facility-specific predicted hospitalization rate trajectories as well as their pointwise confidence intervals. Detailed instructions on how to perform the aforementioned procedures, make predictions of region- and facility-level hospitalization rate trajectories and visualize results are included in MST_FM_tutorial.R.
+The contents of this folder allow for implementation of the M-VCSM estimation and inference described in "Multilevel Varying Coefficient Spatiotemporal Model". Users can simulate a sample data frame (M_VCSM_simulation.R) and apply the proposed estimation algorithm (M_VCSM_decomposition.R, M_VCSM_MCMC.R). Also, we include tools to perform inference on multilevel varying coefficient functions and prediction of region- and facility-specific deviations (MST_FM_inference.R), allowing users to obtain effect of region- and facility-level risk factors as well as their simultaneous confidence bands. Detailed instructions on how to perform the aforementioned procedures and visualize results are included in M_VCSM_tutorial.R.
 
 REQUIREMENTS ——————————————
 
